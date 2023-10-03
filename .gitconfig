@@ -1,18 +1,24 @@
 [credential "https://github.com"]
-	helper = !/usr/bin/gh auth git-credential
+    helper = !/usr/bin/gh auth git-credential
+
 [credential "https://gist.github.com"]
-	helper = !/usr/bin/gh auth git-credential
+    helper = !/usr/bin/gh auth git-credential
+
 [init]
-	defaultBranch = main
+    defaultBranch = main
+
 [user]
-	email = youdontgettoseemyemaillllll@aaaahhhh.org
-	name = naomi tesla
+	email = naomitesla@protonmail.com
+    name = naomi tesla
 
 [alias]
+    p = push
+    pu = push -u
     cl = clone
     ca = commit -am
     c = commit -m
     a = add
-    p = push
     s = status
     t = track
+    d = diff
+    r = reset
